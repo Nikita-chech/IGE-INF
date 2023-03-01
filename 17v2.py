@@ -3,9 +3,7 @@ n=5000
 l=[]
 for i in range(n):
     l.append(int(f.readline()))
-m=0
-c=0
-m2=0
+m, c, m2=0, 0, 0
 for i in l:
     if l[i]%11==0:
         m=max(m, l[i])
